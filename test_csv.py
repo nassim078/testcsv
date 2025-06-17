@@ -6,7 +6,7 @@ class TestCSV(unittest.TestCase):
         chemin = "20230616-top-100-rencontres-les-plus-pariees.csv"
         resultat = match_plus_parie(chemin)
 
-        print("🏆 Match le plus parié :", resultat)
+        print("Match le plus parié :", resultat)
 
         self.assertEqual(resultat["equipe_1"], "ARGENTINE")
         self.assertEqual(resultat["equipe_2"], "FRANCE")
